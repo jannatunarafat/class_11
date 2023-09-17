@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header section */
+
+.headerSection{
+    text-align: center;
+    background: #34495e;
+    padding: 40px 0;
+    
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 27px;
+    color: aliceblue;
+    margin: 0 10px;
+    background: #e67e22;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    color: blue;
+} 
+.menu ul li span {
+    width: 5px;
+    height: 25px;
+    background:white;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.menu ul li p {
+    color: #e67e22;
+}
+/* service section */
+
+.serviceSection{
+    text-align: center;
+    background: #e1e1e1;
+    padding: 70px 0;
+    position: relative;
+    margin-top: -10px;
+}
+.serviceSection h1{
+    font-size: 80px;
+    color: #3b5e3b;
+    border-bottom: 5px dashed #3b5e3b;
+    margin-bottom: 34px;
+
+}
+.singleService1{
+    width: 300px;
+    height: 250px;
+    background: #eee7e7;
+    box-shadow: 1px 1px 13px black;
+    padding: 10px;
+    transition: 2s;
+    border-radius: 12px;
+}
+.singleService1:hover{
+    background-color: rgb(37, 156, 235);
+}
+.singleService2{
+    width: 300px;
+    height: 250px;
+    background: #eee7e7;
+    box-shadow: 1px 1px 13px black;
+    position: absolute;
+    top: 200px;
+    left: 37%;
+    padding: 10px;
+    transition: 2s;
+    border-radius: 12px;
+}
+.singleService2:hover{
+    background-color: rgb(37, 156, 235);
+}
+.singleService3{
+    width: 300px;
+    height: 250px;
+    background: #eee7e7;
+    box-shadow: 1px 1px 13px black;
+    position: absolute;
+    top: 200px;
+    left: 68%;
+    padding: 10px;
+    transition: 2s;
+    border-radius: 12px;
+}
+.singleService3:hover{
+    background-color: rgb(37, 156, 235);
+}
+.singleService1 i{
+    font-size: 44PX;
+    color: #3b5e3b;
+    margin-top: 15PX;
+}
+.singleService2 i{
+    font-size: 44PX;
+    color: #3b5e3b;
+    margin-top: 5PX;
+}
+
+.singleService3 i{
+    font-size: 44PX;
+    color: #3b5e3b;
+    margin-top: 15PX;
+}
+.singleService1 h3{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #661b1b;
+}
+.singleService2 h3{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #661b1b
+}
+
+.singleService3 h3{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #661b1b;
+}
+
+/* contact section */
+.contactSection{
+background-color: #9b59b6;
+height: 500px;
+position: relative;
+}
+.one{
+    width: 120px;
+    height: 120px;
+    background-color:#34495e;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    position: absolute;
+    top: 155px;
+    left: 16%;
+
+
+
+}
+.two{
+    width: 120px;
+    height: 120px;
+    background-color:#34495e;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    position: absolute;
+    top: 25px;
+    left: 31%;
+
+
+    
+}
+.three {
+    left: 40%;
+    width: 120px;
+    height: 120px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    
+}
+
+.profileImg{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	border: 5px solid orange;
+	border-radius: 50%;
+}
+.profileImg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.profileImg:hover .text{
+	opacity: 1;
+	visibility: visible;
+}
+.text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(69, 143, 75);
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	visibility: hidden;
+	transition: 2s;
+}
+.text h3{
+    margin-top: 45px;
+}
+
+
+
+.four{
+    width: 120px;
+    height: 120px;
+    background-color:#34495e;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    position: absolute;
+    top: 25px;
+    right: 31%;
+    
+
+    
+}
+.five{
+    width: 120px;
+    height: 120px;
+    background-color:#34495e;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    position: absolute;
+    top: 155px;
+    right: 16%;
+
+}
+.defultInput {
+    width: 100%;
+    padding: 8px 40px;
+    border-radius: 15px;
+    border: 1px solid #c1bfb7;
+    text-transform: capitalize;
+    margin-left: -27px;
+    margin-top: 12px;
+}
+.defultInput1 {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    margin-top: 15px;
+
+}
+
+/* footer section */
+
+
+.footerSection{
+        background: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0 40px;
+        
+}
